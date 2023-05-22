@@ -1,0 +1,59 @@
+* {
+  /*border: 1px solid black;*/
+  padding: 1%;
+  font-size: 1.2rem;
+  color: white
+}
+
+body {
+    background-color: #009999;
+    font-family: "Dosis", sans-serif;
+}
+
+.header {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#survey-form {
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 0.3rem;
+    margin: 0 20% 0 20%;
+}
+
+label {
+  display: block;
+}
+
+input, select, option, textarea, button {
+  color: grey;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+#submit {
+  background-color: #f47920;
+  color: white;
+}
+
+#title {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+#description {
+  font-size: 1.2rem;
+  font-style: oblique;
+  margin: 0 0 2% 0;
+}
+
+#dropdown, #feature, #submit {
+  width: 100%;
+}
+
+#name, #number, #comments, #email {
+  width: 97.5%;
+}
